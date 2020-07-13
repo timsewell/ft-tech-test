@@ -8,8 +8,11 @@ window.addEventListener('DOMContentLoaded', function () {
             var url = item.url;
 
             delete item.url;
-            element.innerHTML+= '<div class="data-section"><div class="data-url">URL: ' + url + '</div>'
-                + ((item.error) ? '<span class="error">' + item.error + '</span>' : JSON.stringify(item))
+            element.innerHTML+= '<div class="data-section">'
+                + '<div class="data-url">URL: ' + url + '</div>'
+                + ((item.error)
+                    ? '<span class="error">' + item.error + '</span>'
+                    : JSON.stringify(item))
                 + '</div>';
         }
     }
