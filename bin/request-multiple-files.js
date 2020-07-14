@@ -4,10 +4,10 @@ const requestMultipleUrls = async aUrlsArray => {
     const results = [];
 
     return new Promise((resolve, reject) => {
-        aUrlsArray.forEach(aUrl => {
+        try {
+            aUrlsArray.forEach(aUrl => {
                 fetch(aUrl).then(aResponse => {
                     if (aResponse && aResponse.ok) {
-                        console.log('Fetched OK from ' + aUrl);
                         return aResponse.json();
                     }
                     else {
@@ -22,9 +22,12 @@ const requestMultipleUrls = async aUrlsArray => {
                     if (results.length === aUrlsArray.length) {
                         resolve(results);
                     }
-                })
-
-        });
+                });
+            });
+        }
+        catch (error) {
+            reject(results);
+        }
     });
 };
 

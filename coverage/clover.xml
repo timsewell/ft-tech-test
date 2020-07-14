@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1594715256334" clover="3.2.0">
+  <project timestamp="1594715256334" name="All files">
+    <metrics statements="43" coveredstatements="26" conditionals="6" coveredconditionals="0" methods="7" coveredmethods="0" elements="56" coveredelements="26" complexity="0" loc="43" ncloc="43" packages="3" files="4" classes="4"/>
+    <package name="ft-test-2020-express">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="C:\Users\sewellt\dev\ft-test-2020-express\app.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ft-test-2020-express.bin">
+      <metrics statements="17" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="request-multiple-files.js" path="C:\Users\sewellt\dev\ft-test-2020-express\bin\request-multiple-files.js">
+        <metrics statements="17" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ft-test-2020-express.routes">
+      <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="get-data.js" path="C:\Users\sewellt\dev\ft-test-2020-express\routes\get-data.js">
+        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\sewellt\dev\ft-test-2020-express\routes\index.js">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
