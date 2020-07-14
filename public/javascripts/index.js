@@ -16,6 +16,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 + '</div>';
         }
     }
+    // In a real-life situation, of course, if older browsers needed support
+    // I would include a library that could substitute fetch where not supported.
     fetch('/get-data')
         .then(function (aResponse) {
             if (aResponse.ok) {
